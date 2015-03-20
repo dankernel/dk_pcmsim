@@ -69,3 +69,4 @@ phoronix, bonnie, iozone 같은 밴치마크 유틸리티가 있다.
 iozone -Rab output.wks
 결과는 엑셀 파일 형식으로 나오는데, 윈도우로 다운받아서 엑셀로 까보면 된다.
 
+add
