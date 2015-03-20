@@ -4,7 +4,7 @@ PCMSIM 메뉴얼.
 모듈을 올리거나 하는 부분들은 sudo 루트 권한으로 진행해야 한다.
 각 과정마다 시간이 조금 걸릴 수 있다.
 
-1.커널 2.6.x 버전.
+1. 커널 2.6.x 버전.
 리눅스 커널 2.6 버전에서만 됨. 커널 컴파일 해서 커널 버전을 맞춘다.
 버전이 안맞으면 make 부터 알수 없는 오류가 뜬다!
 
@@ -37,7 +37,8 @@ memory_tCL10 = 90
 // 이하 3개는 무슨 클럭 관련..
 상세 링크 : http://windy.luru.net/1074
 
-- lm_sensors 설치
+
+# lm_sensors 설치
 하드웨어 정보를 알 수 있는 시스템 소프트웨어 인가보다.
 참고 : https://wiki.archlinux.org/index.php/Lm_sensors
 
@@ -67,5 +68,4 @@ phoronix, bonnie, iozone 같은 밴치마크 유틸리티가 있다.
 사용법 : http://dra700.azurewebsites.net/?p=184
 iozone -Rab output.wks
 결과는 엑셀 파일 형식으로 나오는데, 윈도우로 다운받아서 엑셀로 까보면 된다.
-
 
