@@ -1,0 +1,1 @@
+cmd_/home/dkdk/code/tmp_code/pcmsim/pcmsim/pcmsim.ko := ld -r -m elf_i386 -T /usr/src/linux-2.6.32.65/scripts/module-common.lds --build-id -o /home/dkdk/code/tmp_code/pcmsim/pcmsim/pcmsim.ko /home/dkdk/code/tmp_code/pcmsim/pcmsim/pcmsim.o /home/dkdk/code/tmp_code/pcmsim/pcmsim/pcmsim.mod.o
