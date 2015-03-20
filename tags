@@ -1,0 +1,111 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+KDIR	Makefile	/^KDIR  := \/lib\/modules\/$(shell uname -r)\/build$/;"	m
+PAGE_SECTORS	ramdisk.h	44;"	d
+PAGE_SECTORS_SHIFT	ramdisk.h	43;"	d
+PCMSIM_CHECK_ACCURACY	config.h	64;"	d
+PCMSIM_MAJOR	module.c	/^MODULE_ALIAS_BLOCKDEV_MAJOR(PCMSIM_MAJOR);$/;"	v
+PCMSIM_MAJOR	ramdisk.h	41;"	d
+PCMSIM_MEM_CACHED	memory.h	42;"	d
+PCMSIM_MEM_SECTORS	config.h	39;"	d
+PCMSIM_MEM_UNCACHED	memory.h	41;"	d
+PCM_READ	pcm.h	39;"	d
+PCM_WRITE	pcm.h	40;"	d
+PWD	Makefile	/^PWD   := $(shell pwd)$/;"	m
+SECTOR_SHIFT	ramdisk.h	42;"	d
+UNSIGNED_SHIFT	util.h	36;"	d
+__PCMSIM_CONFIG_H	config.h	34;"	d
+__PCMSIM_MEMORY_H	memory.h	34;"	d
+__PCMSIM_MEM_NO_EXTERN	memory.c	44;"	d	file:
+__PCMSIM_PCM_H	pcm.h	34;"	d
+__PCMSIM_RAMDISK_H	ramdisk.h	37;"	d
+__PCMSIM_UTIL_H	util.h	34;"	d
+__PCMSIM_UTIL_NO_EXTERN	util.c	43;"	d	file:
+__this_module	pcmsim.mod.c	/^struct module __this_module$/;"	v	typeref:struct:module
+__used	pcmsim.mod.c	/^__used$/;"	v	file:
+__used	pcmsim.mod.c	/^__used$/;"	v	typeref:struct:____versions	file:
+budget	pcm.h	/^	int budget;$/;"	m	struct:pcm_model
+copy_from_pcmsim	ramdisk.c	/^void __always_inline copy_from_pcmsim(void *dest, struct pcmsim_device *pcmsim,$/;"	f
+copy_to_pcmsim	ramdisk.c	/^void __always_inline copy_to_pcmsim(struct pcmsim_device *pcmsim, const void *src,$/;"	f
+dirty	pcm.h	/^	unsigned* dirty;$/;"	m	struct:pcm_model
+flush	memory.c	/^static __inline__ void flush(void)$/;"	f	file:
+get_ticks	util.c	/^u64 get_ticks(void)$/;"	f
+hw95	memory.c	/^unsigned hw95(unsigned var, unsigned count)$/;"	f
+hw95pi	memory.c	/^unsigned hw95pi(unsigned var, unsigned count)$/;"	f
+memory_bus_mhz	memory.c	/^unsigned memory_bus_mhz;$/;"	v
+memory_bus_scale	memory.c	/^unsigned memory_bus_scale;$/;"	v
+memory_calibrate	memory.c	/^void memory_calibrate(void)$/;"	f
+memory_copy	memory.c	/^void memory_copy(void* dest, const void* buffer, size_t size)$/;"	f
+memory_ddr_rating	memory.c	/^unsigned memory_ddr_rating = 1333;$/;"	v
+memory_ddr_version	memory.c	/^unsigned memory_ddr_version = 3;$/;"	v
+memory_okr_overhead_copy	memory.c	/^unsigned memory_okr_overhead_copy[3 \/* from *\/][3 \/* to, 2 = uncached+wb *\/][PCMSIM_MEM_SECTORS + 1];$/;"	v
+memory_okw_overhead_copy	memory.c	/^unsigned memory_okw_overhead_copy[3 \/* from *\/][3 \/* to, 2 = uncached+wb *\/][PCMSIM_MEM_SECTORS + 1];$/;"	v
+memory_overhead_copy	memory.c	/^unsigned memory_overhead_copy[3 \/* from *\/][3 \/* to, 2 = uncached+wb *\/][PCMSIM_MEM_SECTORS + 1];$/;"	v
+memory_overhead_read	memory.c	/^unsigned memory_overhead_read[2 \/* 0 = uncached, 1 = cached *\/][PCMSIM_MEM_SECTORS + 1];$/;"	v
+memory_overhead_was_cached	memory.c	/^unsigned memory_overhead_was_cached[2 \/* 0 = uncached, 1 = cached *\/][PCMSIM_MEM_SECTORS + 1];$/;"	v
+memory_read	memory.c	/^void memory_read(const void* buffer, size_t size)$/;"	f
+memory_row_width	memory.c	/^unsigned memory_row_width = 128;$/;"	v
+memory_tCL10	memory.c	/^unsigned memory_tCL10  = 90;	\/* x 10 *\/$/;"	v
+memory_tRCD	memory.c	/^unsigned memory_tRCD   =  9;$/;"	v
+memory_tRP	memory.c	/^unsigned memory_tRP    =  9;$/;"	v
+memory_time_l2_threshold	memory.c	/^unsigned memory_time_l2_threshold = 0;$/;"	v
+memory_time_l2_threshold_copy	memory.c	/^unsigned memory_time_l2_threshold_copy[PCMSIM_MEM_SECTORS + 1];$/;"	v
+memory_time_l2_threshold_copy_cb_hi	memory.c	/^unsigned memory_time_l2_threshold_copy_cb_hi[PCMSIM_MEM_SECTORS + 1];$/;"	v
+memory_time_l2_threshold_copy_cb_lo	memory.c	/^unsigned memory_time_l2_threshold_copy_cb_lo[PCMSIM_MEM_SECTORS + 1];$/;"	v
+memory_time_l2_threshold_copy_write	memory.c	/^unsigned memory_time_l2_threshold_copy_write[2 \/* 0 = uncached read *\/][PCMSIM_MEM_SECTORS + 1];$/;"	v
+memory_time_l2_threshold_copy_write_lo	memory.c	/^unsigned memory_time_l2_threshold_copy_write_lo[PCMSIM_MEM_SECTORS + 1];$/;"	v
+memory_time_read	memory.c	/^static unsigned noinline memory_time_read(const void* buffer, size_t size)$/;"	f	file:
+memory_var_overhead_copy	memory.c	/^unsigned memory_var_overhead_copy[3 \/* from *\/][3 \/* to, 2 = uncached+wb *\/][PCMSIM_MEM_SECTORS + 1];$/;"	v
+memory_var_overhead_read	memory.c	/^unsigned memory_var_overhead_read[2 \/* 0 = uncached, 1 = cached *\/][PCMSIM_MEM_SECTORS + 1];$/;"	v
+memory_was_cached	memory.c	/^int memory_was_cached(const void* buffer, size_t size)$/;"	f
+obj-m	Makefile	/^obj-m := pcmsim.o$/;"	m
+overhead_get_ticks	util.c	/^unsigned overhead_get_ticks = 0;$/;"	v
+pcm_calibrate	pcm.c	/^void pcm_calibrate(void)$/;"	f
+pcm_latency	pcm.c	/^unsigned pcm_latency[2 \/* 0 = read, 1 = write *\/][PCMSIM_MEM_SECTORS + 1];$/;"	v
+pcm_latency_delta	pcm.c	/^int pcm_latency_delta[2 \/* 0 = read, 1 = write *\/][PCMSIM_MEM_SECTORS + 1];$/;"	v
+pcm_model	pcm.h	/^struct pcm_model {$/;"	s
+pcm_model_allocate	pcm.c	/^struct pcm_model* pcm_model_allocate(unsigned sectors)$/;"	f
+pcm_model_free	pcm.c	/^void pcm_model_free(struct pcm_model* model)$/;"	f
+pcm_org_mhz	pcm.c	/^unsigned pcm_org_mhz  = 400;$/;"	v
+pcm_org_tRCD	pcm.c	/^unsigned pcm_org_tRCD = 22;$/;"	v
+pcm_org_tRP	pcm.c	/^unsigned pcm_org_tRP  = 60;$/;"	v
+pcm_read	pcm.c	/^void pcm_read(struct pcm_model* model, void* dest, const void* src, size_t length, sector_t sector)$/;"	f
+pcm_row_width	pcm.c	/^unsigned pcm_row_width = 256;$/;"	v
+pcm_tRCD	pcm.c	/^unsigned pcm_tRCD;$/;"	v
+pcm_tRP	pcm.c	/^unsigned pcm_tRP;$/;"	v
+pcm_write	pcm.c	/^void pcm_write(struct pcm_model* model, void* dest, const void* src, size_t length, sector_t sector)$/;"	f
+pcmsim_alloc	ramdisk.c	/^struct pcmsim_device* pcmsim_alloc(int index, unsigned capacity_mb)$/;"	f
+pcmsim_capacity	ramdisk.h	/^	unsigned pcmsim_capacity;$/;"	m	struct:pcmsim_device
+pcmsim_capacity_mb	module.c	/^static int pcmsim_capacity_mb = 512;$/;"	v	file:
+pcmsim_capacity_mb	module.c	/^static int pcmsim_capacity_mb = 64;$/;"	v	file:
+pcmsim_data	ramdisk.h	/^	void* pcmsim_data;$/;"	m	struct:pcmsim_device
+pcmsim_del_one	module.c	/^static void pcmsim_del_one(struct pcmsim_device *pcmsim)$/;"	f	file:
+pcmsim_device	ramdisk.h	/^struct pcmsim_device {$/;"	s
+pcmsim_disk	ramdisk.h	/^	struct gendisk* pcmsim_disk;$/;"	m	struct:pcmsim_device	typeref:struct:pcmsim_device::gendisk
+pcmsim_do_bvec	ramdisk.c	/^static int pcmsim_do_bvec(struct pcmsim_device *pcmsim, struct page *page,$/;"	f	file:
+pcmsim_exit	module.c	/^module_exit(pcmsim_exit);$/;"	v
+pcmsim_exit	module.c	/^static void __exit pcmsim_exit(void)$/;"	f	file:
+pcmsim_fops	ramdisk.c	/^static struct block_device_operations pcmsim_fops = {$/;"	v	typeref:struct:block_device_operations	file:
+pcmsim_free	ramdisk.c	/^void pcmsim_free(struct pcmsim_device *pcmsim)$/;"	f
+pcmsim_init	module.c	/^module_init(pcmsim_init);$/;"	v
+pcmsim_init	module.c	/^static int __init pcmsim_init(void)$/;"	f	file:
+pcmsim_init_one	module.c	/^static struct pcmsim_device *pcmsim_init_one(int i)$/;"	f	file:
+pcmsim_ioctl	ramdisk.c	/^static int pcmsim_ioctl(struct block_device *bdev, fmode_t mode,$/;"	f	file:
+pcmsim_list	ramdisk.h	/^	struct list_head pcmsim_list;$/;"	m	struct:pcmsim_device	typeref:struct:pcmsim_device::list_head
+pcmsim_lock	ramdisk.h	/^	spinlock_t pcmsim_lock;$/;"	m	struct:pcmsim_device
+pcmsim_make_request	ramdisk.c	/^static int pcmsim_make_request(struct request_queue *q, struct bio *bio)$/;"	f	file:
+pcmsim_model	ramdisk.h	/^	struct pcm_model* pcmsim_model;$/;"	m	struct:pcmsim_device	typeref:struct:pcmsim_device::pcm_model
+pcmsim_num_devices	module.c	/^static int pcmsim_num_devices = 1;$/;"	v	file:
+pcmsim_number	ramdisk.h	/^	int pcmsim_number;$/;"	m	struct:pcmsim_device
+pcmsim_probe	module.c	/^static struct kobject *pcmsim_probe(dev_t dev, int *part, void *data)$/;"	f	file:
+pcmsim_queue	ramdisk.h	/^	struct request_queue* pcmsim_queue;$/;"	m	struct:pcmsim_device	typeref:struct:pcmsim_device::request_queue
+rdtsc	util.c	/^u64 rdtsc(void)$/;"	f
+sqrt32	util.c	/^unsigned int sqrt32(unsigned long n)$/;"	f
+stat_reads	pcm.h	/^	unsigned stat_reads[2 \/* cached? *\/];$/;"	m	struct:pcm_model
+stat_writes	pcm.h	/^	unsigned stat_writes[2 \/* cached? *\/];$/;"	m	struct:pcm_model
+util_calibrate	util.c	/^void util_calibrate(void)$/;"	f
+variance	memory.c	/^unsigned variance(void** buffers, unsigned* data, unsigned count, unsigned max_count)$/;"	f

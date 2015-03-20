@@ -1,0 +1,27 @@
+device: (g=0): rw=write, bs=4K-4K/4K-4K/4K-4K, ioengine=sync, iodepth=1
+fio-2.1.11
+Starting 1 process
+
+device: (groupid=0, jobs=1): err= 0: pid=3851: Thu Mar 19 17:02:39 2015
+  write: io=65536KB, bw=157918KB/s, iops=39479, runt=   415msec
+    clat (usec): min=2, max=64, avg=24.59, stdev= 6.40
+     lat (usec): min=2, max=65, avg=24.85, stdev= 6.41
+    clat percentiles (usec):
+     |  1.00th=[    2],  5.00th=[    2], 10.00th=[   26], 20.00th=[   26],
+     | 30.00th=[   26], 40.00th=[   26], 50.00th=[   26], 60.00th=[   26],
+     | 70.00th=[   26], 80.00th=[   27], 90.00th=[   27], 95.00th=[   27],
+     | 99.00th=[   31], 99.50th=[   31], 99.90th=[   32], 99.95th=[   33],
+     | 99.99th=[   59]
+    lat (usec) : 4=7.40%, 50=92.59%, 100=0.01%
+  cpu          : usr=3.86%, sys=96.62%, ctx=35, majf=0, minf=27
+  IO depths    : 1=100.0%, 2=0.0%, 4=0.0%, 8=0.0%, 16=0.0%, 32=0.0%, >=64=0.0%
+     submit    : 0=0.0%, 4=100.0%, 8=0.0%, 16=0.0%, 32=0.0%, 64=0.0%, >=64=0.0%
+     complete  : 0=0.0%, 4=100.0%, 8=0.0%, 16=0.0%, 32=0.0%, 64=0.0%, >=64=0.0%
+     issued    : total=r=0/w=16384/d=0, short=r=0/w=0/d=0
+     latency   : target=0, window=0, percentile=100.00%, depth=1
+
+Run status group 0 (all jobs):
+  WRITE: io=65536KB, aggrb=157918KB/s, minb=157918KB/s, maxb=157918KB/s, mint=415msec, maxt=415msec
+
+Disk stats (read/write):
+  pcm0: ios=0/0, merge=0/0, ticks=0/0, in_queue=0, util=0.00%

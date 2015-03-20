@@ -1,0 +1,27 @@
+device: (g=0): rw=read, bs=4K-4K/4K-4K/4K-4K, ioengine=sync, iodepth=1
+fio-2.1.11
+Starting 1 process
+
+device: (groupid=0, jobs=1): err= 0: pid=3859: Thu Mar 19 17:03:36 2015
+  read : io=65536KB, bw=1306.2MB/s, iops=334367, runt=    49msec
+    clat (usec): min=1, max=45, avg= 2.37, stdev= 2.29
+     lat (usec): min=1, max=46, avg= 2.47, stdev= 2.32
+    clat percentiles (usec):
+     |  1.00th=[    1],  5.00th=[    1], 10.00th=[    2], 20.00th=[    2],
+     | 30.00th=[    2], 40.00th=[    2], 50.00th=[    2], 60.00th=[    2],
+     | 70.00th=[    2], 80.00th=[    2], 90.00th=[    2], 95.00th=[    3],
+     | 99.00th=[   15], 99.50th=[   15], 99.90th=[   16], 99.95th=[   16],
+     | 99.99th=[   45]
+    lat (usec) : 2=8.58%, 4=88.05%, 10=0.35%, 20=3.00%, 50=0.02%
+  cpu          : usr=41.67%, sys=50.00%, ctx=5, majf=0, minf=28
+  IO depths    : 1=100.0%, 2=0.0%, 4=0.0%, 8=0.0%, 16=0.0%, 32=0.0%, >=64=0.0%
+     submit    : 0=0.0%, 4=100.0%, 8=0.0%, 16=0.0%, 32=0.0%, 64=0.0%, >=64=0.0%
+     complete  : 0=0.0%, 4=100.0%, 8=0.0%, 16=0.0%, 32=0.0%, 64=0.0%, >=64=0.0%
+     issued    : total=r=16384/w=0/d=0, short=r=0/w=0/d=0
+     latency   : target=0, window=0, percentile=100.00%, depth=1
+
+Run status group 0 (all jobs):
+   READ: io=65536KB, aggrb=1306.2MB/s, minb=1306.2MB/s, maxb=1306.2MB/s, mint=49msec, maxt=49msec
+
+Disk stats (read/write):
+  pcm0: ios=0/0, merge=0/0, ticks=0/0, in_queue=0, util=0.00%
